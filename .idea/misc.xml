@@ -5,7 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="app/src/main/res/layout/activity_read.xml" value="0.30625" />
-        <entry key="app/src/main/res/layout/activity_update_task.xml" value="0.2046875" />
+        <entry key="app/src/main/res/layout/activity_update_task.xml" value="0.4" />
         <entry key="app/src/main/res/layout/data_item.xml" value="0.30625" />
       </map>
     </option>

@@ -69,7 +69,9 @@ public class UpdateTaskActivity extends AppCompatActivity {
             protected Void doInBackground(Void... voids) {
                 data.setName(name);
                 data.setEmail(email);
-                data.setImgUrl(img);
+//                data.setImgUrl(img);
+                //todo delete later for testing purpose
+                data.setImgUrl("https://source.unsplash.com/user/c_v_r/100x100");
 
                 DatabaseClient.getInstance(getApplicationContext()).getAppDatabase()
                         .Dao()

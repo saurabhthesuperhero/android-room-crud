@@ -36,13 +36,6 @@ public class MainActivity extends AppCompatActivity {
         binding.button.setOnClickListener(view -> saveData());
         binding.btnShowData.setOnClickListener(view -> showData());
 
-
-
-
-
-
-
-
 //        apiInterface = APIClient.getClient().create(APIInterface.class);
 //        Call<String> call = apiInterface.getFun();
 //        call.enqueue(new Callback<String>() {
@@ -97,7 +90,10 @@ public class MainActivity extends AppCompatActivity {
                 SimpleModel data = new SimpleModel();
                 data.setName(name);
                 data.setEmail(email);
-                data.setImgUrl(imgUrl);
+
+                //todo to delte later for now setting custom image url
+//                data.setImgUrl(imgUrl);
+                data.setImgUrl("https://source.unsplash.com/user/c_v_r/100x100");
 
 
                 //adding to database
